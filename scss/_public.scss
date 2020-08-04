@@ -1,0 +1,210 @@
+.main-filter {
+    border: 1px solid #f1f3f5;
+    padding: $size-14;
+    min-height: 70vh;
+    border-radius: 12px;
+    .collapse-area {
+        .panel-heading {
+            padding: 0 $size-10 !important;
+            background-color: transparent !important;
+        }
+        .panel-body {
+            padding: 0 20px;
+        }
+        .panel-default {
+            border-color: transparent !important;
+        }
+        i.fa-chevron-down {
+            // width: 100px;
+            text-align: end;
+        }
+    }
+}
+.notifications {
+    border: 1px solid #f1f3f5;
+    padding: 0 $size-20 $size-20 $size-20;
+    border-radius: 12px;
+    &-card {
+        border: 1px solid #f1f3f5;
+        padding: $size-14;
+        border-radius: 12px;
+        p, span {
+            font-weight: 400 !important;
+        }
+        img {
+            border-radius: 50%;
+        }
+    }
+}
+a {
+    &:focus, &:hover {
+        text-decoration: none !important;
+    }
+}
+.padding-adjust {
+    padding: 10px 30px !important;
+}
+textarea {
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid #f1f3f5;
+}
+.comment-area {
+    background-color: #f1f5f4;
+    padding: 30px 0;
+    margin-bottom: 5px;
+}
+.btn-link {
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 7px 24px !important;
+    &:hover {
+        border: 1px solid;
+        text-decoration: none;
+    }
+}
+.my-0 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.contact-us {
+    transform: translateY(-130px);
+    background-color: white;
+    border-radius: 4px;
+    padding: 40px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #eee !important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border: none !important;
+}
+.nav-tabs>li>a {
+    margin-right: 0 !important;
+}
+.form-horizontal .control-label {
+    text-align: justify !important;
+}
+.time {
+    // position: absolute;
+    // right: .5rem;
+    // top: 1.35rem;
+    font-size: 10px;
+    float: right;
+    margin-top: 4px;
+}
+.count {
+    font-size: 7px;
+    background-color: #434a51;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    padding: 3px 4px 2px;
+    float: right;
+}
+.bg-gray {
+    background-color: $graybg;
+}
+.style-adjust {
+    margin-bottom: 5px !important;
+    border-bottom: 1px solid #EEE;
+    border-top: 1px solid #EEE;
+    background-color: white !important;
+}
+.margin-adjust {
+    margin-left: 35px;
+}
+.chat-p-left {
+    text-align: justify;
+    background-color: #f1f3f5;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 16px;
+    max-width: 50%;
+    border-bottom-left-radius: 0;
+}
+.chat-p-right {
+    // text-align: right;
+    direction: rtl;
+    background-color: $secColor;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 16px;
+    max-width: 50%;
+    border-bottom-right-radius: 0;
+}
+.rtl {
+    direction: rtl;
+}
+.h-60 {
+    height: 65.25vh;
+    overflow: overlay;
+}
+.chat-size {
+    position: relative;
+    height: 65.25vh;
+    .input-group {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+}
+.chat-area {
+    max-height: 60vh;
+    overflow: overlay;
+}
+::-webkit-scrollbar-thumb {
+    background: #404d6f;
+    border-radius: 20px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+.check-adjust {
+    margin-top: 2px !important;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.fa-star, .fa-star-o {
+    color: #ffa41b;
+    font-size: 20px;
+    cursor: pointer;
+}
+.pt-0 {
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+}
+
+.h-50 {
+    // height: 150px !important;
+    // width: 150px !important;
+}
+.slick-list {
+    // padding: 0 !important;
+    // max-height: 200px !important;
+    // margin-top: 20px;
+    // margin-bottom: 20px;
+}
+.slick-track {
+    // max-width: 120px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+.slick-slide {
+    // max-width: 150px !important;
+    margin: 20px 0;
+    img {
+        margin: auto !important;
+        max-height: 100% !important;
+    }
+}
+.slider-nav .item {
+    height: 100px;
+    line-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

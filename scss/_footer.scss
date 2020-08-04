@@ -1,0 +1,17 @@
+.upper-footer {
+    background-color: #f1f5f4;
+    // margin-top: 6rem;
+}
+.lower-footer {
+    padding: 4rem 0;
+    background-color: #f7fafa;
+    .form-control {
+        border: none !important;
+        margin-top: $size-10;
+        font-size: $size-12;
+        &::placeholder {
+            font-family: $baseFont !important;
+            font-size: $size-12;
+        }
+    }
+}

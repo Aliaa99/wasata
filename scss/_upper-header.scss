@@ -1,0 +1,160 @@
+header {
+    .upnav {
+        background-color: $stColor;
+        color: white;
+        text-align: center;
+        padding: 5px 0px;
+        font-size: $size-12;
+
+        span {
+            padding: 0px $size-20;
+        }
+    }
+    .language-area {
+        text-align: left;
+        padding: $size-12 0px;
+        background-color: white;
+
+        .container {
+            padding: 0;
+
+            span {
+                margin: 0px $size-5;
+            }
+        }
+    }
+    nav {
+        background-color: $stColor;
+        border-radius: 0px !important;
+        margin-bottom: 0 !important;
+
+        .container {
+            .navbar-header {
+                a.navbar-brand {
+                    height: 120px;
+                    padding: .25em;
+                }
+
+                span.fa-bars {
+                    color: white;
+                    font-size: 2em;
+                }
+            }
+
+            ul.navbar-nav {
+                li.active {
+                    a {
+                        color: $secColor;
+                    }
+                }
+                li {
+                    a.main-link {
+                        color: $white;
+                    }
+                    a {
+                        font-family: $baseFont;
+                        &:hover {
+                            color: $secColor;
+                        }
+                    }
+                    
+                }
+            }
+
+            ul.navbar-left {
+                li {
+                    a {
+                        background-color: $secColor;
+                        font-family: $baseFont;
+                        padding: 1em 1.5em;
+                        border-radius: 4px;
+
+                        &:hover {
+                            color: $stColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.py-15 {
+    padding-bottom: 4px;
+    padding-top: 12px;
+}
+.font-regular {
+    font-family: $baseFont !important;
+}
+.rounded {
+    border-radius: 50%;
+}
+.mb-3 {
+    margin-bottom: 4px;
+}
+.px-adjust {
+    padding-right: 3px;
+    padding-left: 6px;
+}
+.color-white {
+    color: white !important;
+}
+// home style
+.tele-academy-paging {
+    background: url(../images/bg.png);
+    background-size: cover;
+    height: calc(100vh - 137px);
+
+    h2 {
+        color: white;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        margin-bottom: $size-30;
+
+            -webkit-animation: fadein 3s;
+            /* Safari, Chrome and Opera > 12.1 */
+            -moz-animation: fadein 3s;
+            /* Firefox < 16 */
+            -ms-animation: fadein 3s;
+            /* Internet Explorer */
+            -o-animation: fadein 3s;
+            /* Opera < 12.1 */
+            animation: fadein 3s;
+
+    }
+
+
+    p {
+        color: white;
+        font-size: $size-12;
+        padding: 40px 20px;
+    }
+
+    a {
+        color: white;
+        font-size: $size-12;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    .newmemb {
+        background-color: $secColor;
+        color: white;
+        padding: $size-10 $size-20;
+        text-transform: uppercase;
+        margin: $size-20;
+        font-size: $size-12;
+        border-radius: $size-5;
+        text-decoration: none;
+    }
+
+}
+
+
+
+
+.px-5 {
+    padding: 0 5px;
+}
+
+.color-white {
+    color: white;
+}
