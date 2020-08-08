@@ -2,10 +2,10 @@
     <div class="row">
         <div class="col-sm-9">
             <a href="product-details.php">
-                <h4><strong>Pre owned rolex</strong></h4>
+                <h4><strong>مطلوب موظف إدخال بيانات </strong></h4>
                 
-                <p> <img src="images/saudi.svg" class="mb-4" width="20px" alt=""> <span class="px-10 size-10 color-gray">Rolex watches</span> - <span class="px-10 size-10 color-gray">Saudi Arabia</span> <span class="rate">4.5 <i class="icon-star"></i></span></p>
-                <p class="product-card__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde sequi nobis asperiores eos quidem saepe consequuntur sint, atque dignissimos, ut perferendis commodi rerum aspernatur ratione doloremque ipsam quibusdam similique!</p>
+                <p>  <span class="px-10 size-10 color-gray size-color">شركة الماس للمحاسبة</span> - <span class="px-10 size-10 color-gray">السعودية الدمام</span> </p>
+                <p class="product-card__p">هذا النص مثال يمكن أن يستبدل هذا النص مثال يمكن أن يستبدل</p>
             </a>
         </div>
         <div class="col-sm-3 text-center">
@@ -14,10 +14,10 @@
             </a>
         </div>
         <div class="btn-group" role="group" aria-label="...">
-            <button type="button" class="btn btn-default text-center"><a href="messages.php"><i class="icon-message_square"></i><span class="px-10">Send Message</span></a></button>
+            <button type="button" class="btn btn-default text-center"><a href="messages.php"><i class="icon-message_square"></i><span class="px-10">حفظ</span></a></button>
             <!-- can take class "is-favorite" -->
-            <button type="button" class="btn btn-default text-center is-favorite"><i class="icon-heart"></i><span class="px-10">Favorite</span></button>
-            <button type="button" class="btn btn-default text-center"><i class="icon-whatsapp"></i><span class="px-10">Send Whatsapp</span></button>
+            <button type="button" class="btn btn-default text-center "><i class="icon-heart"></i><span class="px-10">مشاركة</span></button>
+            <button type="button" class="btn btn-default text-center"><i class="icon-whatsapp"></i><span class="px-10">إخفاء</span></button>
         </div>
     </div>
 </section>

@@ -4,32 +4,9 @@
 }
 @media (min-width:769px) {
 
-    .tele-academy-paging {
-        p {
-            width: 50%;
-            margin: auto;
-            padding: 40px 0px;
-            font-size: 14px;
-        }
-    }
-    .signmodel {
-        width:500px;
-    }
-
-    .special {
-        width: 22.5% !important;
-    }
-    .profilepage{
-        form{
-            height: 360px;
-        }
-    }
-    #delete{
-        .modal-dialog{
-            width: 30%;
-        }
-    }
-    
+    .form-section {
+        width: 50%;
+    }    
 }
 @media (min-width:991px) {
 

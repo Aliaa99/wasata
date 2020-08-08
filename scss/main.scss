@@ -160,11 +160,17 @@ input.personal-passport {
 .margin-adjusting {
     margin: 6em 0;
 }
+.sec-img{
+    background: url(../images/bg.png);
+    background-size: cover;
+
+}
 .global-head {
     background-color: $graybg;
     padding: $size-5  $size-20 $size-10;
     margin-top: $size-20;
-    border-radius: $size-10;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     border: 1px solid $grayborder;
     &__no-border {
         border: none !important
@@ -174,9 +180,31 @@ input.personal-passport {
         background-color: transparent !important;
     }
     article p {
-        color: $grayborder;
+        color: #c4ccd1;
         font-size: $size-12;
     }
+    article h5 {
+        color: white;
+    }
+    article img {
+
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+    .sercher-work{
+        text-align: left;
+        padding-top: 15px;
+        span{
+            background-color: white;
+            padding: 5px 10px;
+            color: #e7bd48;
+            border-radius: 4px;
+        }
+    }
+}
+.edit-pro{
+    background-color: #f0e7d9;
+    padding: 5px;
 }
 .product-card {
     border: 1px solid $graybg;
@@ -184,7 +212,11 @@ input.personal-passport {
     // padding: 15px 10px 10px;
     h4 {
         margin-top: $size-20;
-        color: $secColor;
+        color: $forthcolor;
+    }
+    .size-color{
+        font-size: 13px;
+        font-weight: bold;
     }
     &__img {
         margin-top: $size-20;

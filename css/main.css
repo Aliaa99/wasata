@@ -166,11 +166,17 @@ input.personal-passport {
   margin: 6em 0;
 }
 
+.sec-img {
+  background: url(../images/bg.png);
+  background-size: cover;
+}
+
 .global-head {
   background-color: #f1f3f5;
   padding: 5px 20px 10px;
   margin-top: 20px;
-  border-radius: 10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
   border: 1px solid #c2cacf;
 }
 .global-head__no-border {
@@ -181,8 +187,30 @@ input.personal-passport {
   background-color: transparent !important;
 }
 .global-head article p {
-  color: #c2cacf;
+  color: #c4ccd1;
   font-size: 12px;
+}
+.global-head article h5 {
+  color: white;
+}
+.global-head article img {
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.global-head .sercher-work {
+  text-align: left;
+  padding-top: 15px;
+}
+.global-head .sercher-work span {
+  background-color: white;
+  padding: 5px 10px;
+  color: #e7bd48;
+  border-radius: 4px;
+}
+
+.edit-pro {
+  background-color: #f0e7d9;
+  padding: 5px;
 }
 
 .product-card {
@@ -191,7 +219,11 @@ input.personal-passport {
 }
 .product-card h4 {
   margin-top: 20px;
-  color: #cec47f;
+  color: #3473ba;
+}
+.product-card .size-color {
+  font-size: 13px;
+  font-weight: bold;
 }
 .product-card__img {
   margin-top: 20px;
@@ -307,7 +339,7 @@ input:focus, .input-group-btn button:focus {
 /*** End Global Properties ***/
 /*** Start Upper-Header ***/
 header .upnav {
-  background-color: #404d6f;
+  background-color: black;
   color: white;
   text-align: center;
   padding: 5px 0px;
@@ -328,7 +360,7 @@ header .language-area .container span {
   margin: 0px 5px;
 }
 header nav {
-  background-color: #404d6f;
+  background-color: #f1f3f5;
   border-radius: 0px !important;
   margin-bottom: 0 !important;
 }
@@ -341,25 +373,25 @@ header nav .container .navbar-header span.fa-bars {
   font-size: 2em;
 }
 header nav .container ul.navbar-nav li.active a {
-  color: #cec47f;
+  color: #826636;
 }
 header nav .container ul.navbar-nav li a.main-link {
-  color: #FFF;
+  color: black;
 }
 header nav .container ul.navbar-nav li a {
   font-family: "Proxima Nova Rg";
 }
 header nav .container ul.navbar-nav li a:hover {
-  color: #cec47f;
+  color: #826636;
 }
 header nav .container ul.navbar-left li a {
-  background-color: #cec47f;
+  background-color: #826636;
   font-family: "Proxima Nova Rg";
   padding: 1em 1.5em;
   border-radius: 4px;
 }
 header nav .container ul.navbar-left li a:hover {
-  color: #404d6f;
+  color: #f1f3f5;
 }
 
 .py-15 {
@@ -395,18 +427,18 @@ header nav .container ul.navbar-left li a:hover {
 }
 .tele-academy-paging h2 {
   color: white;
-  letter-spacing: 10px;
   text-transform: uppercase;
   margin-bottom: 30px;
-  -webkit-animation: fadein 3s;
+  margin-top: 11%;
+  -webkit-animation: fadein 5s;
   /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 3s;
+  -moz-animation: fadein 5s;
   /* Firefox < 16 */
-  -ms-animation: fadein 3s;
+  -ms-animation: fadein 5s;
   /* Internet Explorer */
-  -o-animation: fadein 3s;
+  -o-animation: fadein 5s;
   /* Opera < 12.1 */
-  animation: fadein 3s;
+  animation: fadein 5s;
 }
 .tele-academy-paging p {
   color: white;
@@ -417,17 +449,29 @@ header nav .container ul.navbar-left li a:hover {
   color: white;
   font-size: 12px;
   text-transform: uppercase;
-  text-decoration: underline;
+  border: 1px solid white;
+  padding: 5px 25px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .tele-academy-paging .newmemb {
-  background-color: #cec47f;
+  background-color: #826636;
   color: white;
-  padding: 10px 20px;
+  padding: 5px 20px;
   text-transform: uppercase;
   margin: 20px;
-  font-size: 12px;
-  border-radius: 5px;
+  font-size: 20px;
   text-decoration: none;
+  border: 0;
+}
+
+.newmemb2 {
+  background-color: #826636;
+  color: white !important;
+  margin: 12px;
+  font-size: 14px;
+  text-decoration: none;
+  border: 0;
 }
 
 .px-5 {
@@ -440,198 +484,155 @@ header nav .container ul.navbar-left li a:hover {
 
 /*** End Upper-Header ***/
 /*** Start _body-part.***/
-body #signupModal,
-body #forgetpass,
-body #resetpass,
-body #newresetpass {
-  text-align: center !important;
+body .login-p {
+  background: url(../images/bg.png);
+  background-size: cover;
+  height: calc(100vh - 137px);
 }
-body .signmodel .footer {
-  font-size: 12px;
-  margin-top: 10px;
-}
-body .signmodel .footer label {
-  padding: 5px;
-}
-body .signmodel .footer a {
-  color: #cec47f;
-}
-body .signmodel .footer label {
-  color: #d0d5d9;
-}
-body .signmodel .footer p {
-  color: #d0d5d9;
-}
-body .pillsstyle li {
-  width: 48%;
-}
-body .pillsstyle li a {
-  padding: 5px 30px;
-  font-size: 12px;
-  background-color: #e3deb7;
-  color: white;
-}
-body .pillsstyle li a:hover {
-  background-color: #cec47f;
-}
-body .pillsstyle li:active a {
-  background-color: #cec47f !important;
-}
-body .myModalLabel {
-  margin: 20px;
-  text-transform: uppercase !important;
-}
-body .signupform input {
-  margin: 10px 0px;
-}
-body .signupform button {
-  background-color: #cec47f;
-  padding: 5px;
-  width: 100%;
-  color: white;
-  border-radius: 4px;
-}
-body .sideprofile img {
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-}
-body .sideprofile img.chat {
-  width: 20px;
-  height: 20px;
-}
-body .sideprofile ul {
-  border: 1px solid #f6f7f9;
-  border-top: 0px;
-}
-body .sideprofile ul li a {
-  color: #d0d5d9;
-  border-bottom: 1px solid #f6f7f9;
-}
-body .sideprofile ul li:active a {
-  color: black;
-  font-weight: 500;
-  border: 0;
-}
-body .profilepage {
-  margin-bottom: 60px;
-}
-body .profilepage form {
-  border: 1px solid #f6f7f9;
-  padding: 25px;
-  margin-top: -5px;
-  border-top: 0;
-}
-body .profilepage form label {
-  font-size: 12px;
-}
-body .profilepage form button {
-  padding: 5px 25px;
-  font-size: 12px;
-  margin: 0px 20px;
-}
-body .profilepage form select {
-  border: 1px solid #f1f3f5;
-  box-shadow: none;
-}
-body .edit-pro {
-  padding: 7px;
-  text-transform: uppercase;
-  background-color: #f6f7f9;
-  font-size: 12px;
-}
-body #delete .modal-content {
-  padding: 0;
-}
-body #delete .modal-body {
-  padding: 0;
-}
-body #delete section {
-  margin: 0;
-  border-radius: 5px;
-}
-body #delete .close {
-  float: left;
-  padding: 0;
-  margin: 0;
-}
-body #delete .modal-buttons {
-  padding: 20px;
-}
-body #delete button {
-  padding: 5px 25px;
-  margin: 0px 10px;
-  margin-top: 20px;
-  text-transform: uppercase;
-}
-body #delete .cancel {
-  color: #d0d5d9;
-  font-size: 12px;
-}
-body .select-style {
-  border: 1px solid #f1f3f5;
-  box-shadow: none;
-}
-body .multable-photos {
-  position: absolute;
-  width: 100%;
+body .form-section {
+  background-color: white;
   height: 100%;
-  opacity: 0;
+  padding: 40px;
 }
-body .relative {
-  position: relative;
-  min-height: 100px;
+body .form-section p {
+  color: #b8c2c7;
+  font-size: 10px;
 }
-body .relative img {
+body .form-section form .half-width {
+  width: 48%;
+  display: inline-block;
+}
+body .form-section form input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #b8c2c7 !important;
+  width: 100%;
+}
+body .form-section form .form-links button {
+  width: 100%;
+  background-color: #826636;
+  padding: 8px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+body .form-section form .form-links a {
+  color: #b8c2c7;
+}
+body .setting-title {
+  padding: 10px;
+  border: 1px solid #b8c2c7;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+body .setting-title p {
+  text-align: left;
+}
+body .setting-title img {
   width: 100px;
   height: 100px;
-  padding: 5px;
+  border-radius: 50%;
 }
-body .pro-images::after {
-  content: "+";
-  width: 50px;
-  height: 50px;
+body .setting-title ul li {
+  display: inline-block;
+  padding: 10px;
+  color: #b8c2c7;
+}
+body .tab-setting {
+  margin-bottom: 20px;
+}
+body .tab-setting ul.main {
   background-color: #f1f3f5;
-  color: #cec47f;
-  padding: 20px 35px;
-  font-size: 30px;
+}
+body .tab-setting ul.main li a {
+  color: #b8c2c7;
+}
+body .tab-setting ul.main li:active a {
+  color: #826636 !important;
+  background-color: transparent;
+  text-decoration: underline;
+}
+body .tab-setting ul.main li:active a:focus, body .tab-setting ul.main li:active a:hover {
+  color: #826636 !important;
+  background-color: transparent;
+  text-decoration: underline;
+}
+body .tab-setting .tab-content h3 {
+  padding: 20px;
+  border: 1px solid #f1f3f5;
+  margin: 0px;
+}
+body .tab-setting .tab-content td {
+  color: #68758b;
+}
+body .tab-setting .tab-content td span {
+  color: #b8c2c7;
+}
+body .tab-setting .tab-content #menu2 img {
+  width: 100px;
+  height: 100px;
+}
+body .tab-setting .tab-content #menu2 p {
+  color: #b8c2c7;
+  font-size: 11px;
+  padding: 0px 5px 20px 5px;
+}
+body .tab-setting .tab-content #menu3 a {
+  font-size: 15px;
+  float: left;
+}
+body .tab-setting .tab-content #menu3 span {
+  color: #826636;
+  font-size: 13px;
+  font-weight: 700;
+}
+body .tab-setting .tab-content #menu3 p {
+  color: #b8c2c7;
+  font-size: 10px;
+}
+body .left-side h3 {
+  padding: 20px;
+  border: 1px solid #f1f3f5;
+  margin: 0px;
+}
+body .left-side a {
+  font-size: 12px;
+  float: left;
+}
+
+.body-content {
+  padding: 15px;
+  border: 1px solid #f1f3f5;
+}
+
+.span-style {
+  background-color: red;
+  color: wheat;
+  padding: 5px 15px;
+  margin: 5px;
   border-radius: 4px;
 }
-body .table tbody {
-  border: 1px solid #f6f7f9;
+
+.bordered-btn {
+  color: #826636;
+  border: 1px solid #826636;
+  padding: 5px 10px;
 }
-body .table tbody p {
-  font-size: 12px;
-  color: #d0d5d9;
+
+.newlink {
+  background-color: #826636;
+  color: white;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  margin: 20px;
+  font-size: 15px;
+  text-decoration: none;
+  border: 0;
 }
-body .table tbody p span {
-  color: gray;
+
+.left {
+  float: left;
 }
-body .table tbody td {
-  padding: 15px;
-}
-body .table tbody a {
-  color: gray;
-  padding: 6px 10px;
-  font-size: 12px;
-}
-body .table tbody a i {
-  margin: 6px;
-  color: gray;
-}
-body .table tbody .edit {
-  background-color: #f1f3f5;
-}
-body .slider-nav .item {
-  background: white;
-  box-shadow: 1px 2px 2px 1px gainsboro;
-  border-radius: 50%;
-  padding: 15px;
-  margin: 10px;
-}
-body .slider-nav .item:focus {
-  border-color: transparent;
-}
+
 .ml-ne {
   margin-left: -15px;
 }
@@ -645,13 +646,15 @@ body .slider-nav .item:focus {
 }
 
 .newcolor {
-  color: #cec47f;
+  color: #826636;
 }
 
 .padingstyle {
   padding: 12px 20px;
   display: flex;
   justify-content: space-between;
+  background-color: #f9fafb;
+  color: #3473ba;
 }
 
 .p-20 {
@@ -667,7 +670,7 @@ body .slider-nav .item:focus {
 }
 
 .validation-color {
-  color: #d0d5d9;
+  color: #3473ba;
   font-size: 12px;
   display: flex;
   justify-content: space-between;
@@ -704,6 +707,18 @@ input[type=checkbox]:checked:before {
   bottom: 0px;
   right: 0px;
   font-family: FontAwesome;
+}
+
+.basic-btn {
+  color: #3473ba;
+  border: 1px solid #3473ba;
+  padding: 5px 15px;
+}
+
+.basic-link {
+  color: #3473ba;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 @keyframes fadein {
@@ -888,7 +903,7 @@ textarea {
 
 .chat-p-right {
   direction: rtl;
-  background-color: #cec47f;
+  background-color: #826636;
   color: white;
   padding: 15px;
   margin: 10px;
@@ -970,27 +985,8 @@ textarea {
 /*** Start _body-part.***/
 /********* MIN MEDIA *********/
 @media (min-width: 769px) {
-  .tele-academy-paging p {
+  .form-section {
     width: 50%;
-    margin: auto;
-    padding: 40px 0px;
-    font-size: 14px;
-  }
-
-  .signmodel {
-    width: 500px;
-  }
-
-  .special {
-    width: 22.5% !important;
-  }
-
-  .profilepage form {
-    height: 360px;
-  }
-
-  #delete .modal-dialog {
-    width: 30%;
   }
 }
 /********* END MIN MEDIA *********/

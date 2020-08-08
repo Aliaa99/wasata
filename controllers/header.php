@@ -17,7 +17,7 @@
         <link rel="stylesheet" type="text/css" href="css/slick.css"/>
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 
-        <!-- <link rel="stylesheet" href="css/bootstrap-a.min.css" /> -->
+        <link rel="stylesheet" href="css/bootstrap-a.min.css" />
         <!-- Owl carousel -->
         <!-- <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
         <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css"> -->
@@ -90,7 +90,7 @@
 
         <div class="upnav">
             <div class="container">
-              <p> <span> - </span> Welcome and hapy day <span> - </span></p>
+              <p> <span> - </span> دائما وساطة إلى جانبك أينما كنت <span> - </span></p>
             </div>
         </div>
 
@@ -101,10 +101,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-2 col-sm-3 col-xs-4">
-                        <select class="form-control borderless" id="">
+                        <!-- <select class="form-control borderless" id="">
                             <option value="" >Arabic</option>
                             <option value="" selected>English </option>
-                        </select>
+                        </select> -->
                         <!-- <div class="dropdown">
                             <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown"><span class="caret"></span>اللغة العربية
                             <span> <img src="images/002.png"> </span>
@@ -138,37 +138,41 @@
                         <img src="images/001.png" alt="">
                     </a> -->
                 </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="categories.php" class="main-link"><i class="fa fa-home px-5"></i>Home</a></li>
-                    <li><a href="favorites.php" class="main-link"><i class="fa fa-heart px-5"></i>Favorites</a></li>
-                    <li><a href="notifications.php" class="main-link"><i class="fa fa-bell px-5"></i>Notifications</a></li>
-                    <li><a href="messages.php" class="main-link"><i class="fa fa-envelope px-5"></i>Messages</a></li>
-                </ul>
-
-                <ul class="nav navbar-nav navbar-right">
-                    <div class="dropdown">
-                        <button class="btn  dropdown-toggle py-15" type="button" data-toggle="dropdown">  
-                          <span class="caret color-white"></span><span class="color-white font-regular px-adjust">Ahmed Mahmoud</span><span> <img height="25px" width="25px" class="mb-3 rounded" src="images/profile.png" alt=""></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a href="my-profile.php">
-                                <i class="icon-person px-5"></i>    
-                                My Profile</a></li>
-                            <li><a href="advertisment.php">
-                                <i class="icon-ads px-5"></i>                
-                                 My Advertisment</a></li>
-                            <li><a href="commision.php">
-                                <i class="icon-creditcard px-5"></i>                
-                                 Commision</a></li>
-                            <li class="text-center"><a href="#" class="is-favorite">
-                                 LOGOUT</a></li>
-
-                        </ul>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="jobs.php" class="main-link">الرئيسية</a></li>
+                                <li><a href="favorites.php" class="main-link">من نحن</a></li>
+                                <li><a href="notifications.php" class="main-link">أصحاب العمل</a></li>
+                                <li><a href="messages.php" class="main-link">قصص نجاح</a></li>
+                                <li><a href="messages.php" class="main-link">أنظمة وقوانين </a></li>
+                                <li><a href="messages.php" class="main-link">الأسئلة المتكرره</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </ul>
 
+                    <div class="col-md-2">
+                    <ul class="nav navbar-nav ">
+                        <div class="dropdown">
+                            <button class="btn  dropdown-toggle py-15" type="button" data-toggle="dropdown">  
+                            <span class="caret color-white"></span><span class=" font-regular px-adjust">الدخول لحساب</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="login.php" class="newmemb2">
+                                    الدخول كباحث عن عمل  </a></li>
+                                <li><a href="#">
+                                    الدخول كصاحب عمل </a></li>
+
+                            </ul>
+                        </div>
+                    </ul>
+                    
+                    </div>
                 </div>
+
+
+                
             </div>
         </nav>
     

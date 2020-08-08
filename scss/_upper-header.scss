@@ -1,6 +1,6 @@
 header {
     .upnav {
-        background-color: $stColor;
+        background-color: black;
         color: white;
         text-align: center;
         padding: 5px 0px;
@@ -49,7 +49,7 @@ header {
                 }
                 li {
                     a.main-link {
-                        color: $white;
+                        color: black;
                     }
                     a {
                         font-family: $baseFont;
@@ -106,19 +106,19 @@ header {
 
     h2 {
         color: white;
-        letter-spacing: 10px;
         text-transform: uppercase;
         margin-bottom: $size-30;
+        margin-top: 11%;
 
-            -webkit-animation: fadein 3s;
+            -webkit-animation: fadein 5s;
             /* Safari, Chrome and Opera > 12.1 */
-            -moz-animation: fadein 3s;
+            -moz-animation: fadein 5s;
             /* Firefox < 16 */
-            -ms-animation: fadein 3s;
+            -ms-animation: fadein 5s;
             /* Internet Explorer */
-            -o-animation: fadein 3s;
+            -o-animation: fadein 5s;
             /* Opera < 12.1 */
-            animation: fadein 3s;
+            animation: fadein 5s;
 
     }
 
@@ -133,21 +133,32 @@ header {
         color: white;
         font-size: $size-12;
         text-transform: uppercase;
-        text-decoration: underline;
+        border: 1px solid white;
+        padding: 5px 25px;
+        font-size: 20px;
+        background-color: rgba(255, 255, 255, .3);
     }
     .newmemb {
         background-color: $secColor;
         color: white;
-        padding: $size-10 $size-20;
+        padding: 5px 20px;
         text-transform: uppercase;
         margin: $size-20;
-        font-size: $size-12;
-        border-radius: $size-5;
+        font-size: 20px;
         text-decoration: none;
+        border: 0;
     }
 
 }
 
+    .newmemb2 {
+        background-color: $secColor;
+        color: white !important;
+        margin: $size-12;
+        font-size: 14px;
+        text-decoration: none;
+        border: 0;
+    }
 
 
 

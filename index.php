@@ -5,11 +5,10 @@
 
         <div class="tele-academy-paging">
             <div class="container text-center">
+                <h2>شبكة وساطة لتوظيف ذوى الإعاقات الخاصة</h2>
                 <p class="color-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque praesentium corporis rem atque delectus suscipit! Ducimus, suscipit doloremque quisquam omnis modi rem placeat, reiciendis quidem veniam praesentium laboriosam. Molestias.</p>
-                <h2>New Member ?</h2>
-                <a href="#signupModal" data-toggle="modal" class="newmemb">new member</a>
-                <p>I Already have an account</p>
-                <a href="#signupModal" data-toggle="modal"> Signin</a>
+                <a href="login.php"  class="newmemb">إنضم إلينا </a>
+                <a href="contact-us.php" >اتصل بنا  </a>
             </div>
         </div>
 
