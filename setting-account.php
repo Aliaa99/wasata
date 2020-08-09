@@ -79,9 +79,17 @@
                     <div class="left-side">
                         <h3>مهاراتى <a href="#">أضف جديد</a></h3>
                             <div class="body-content">
-                                <span class="span-style">محاسبة</span>
-                                <span class="span-style">محاسبة</span>
-                                <span class="span-style">محاسبة</span>
+                                <ul>
+                                    <li class="span-style">
+                                        <span><a href="#" class="close-item remove">x</a>إدارة محاسبة</span>
+                                    </li>
+                                    <li class="span-style">
+                                        <span><a href="#" class="close-item remove">x</a>إدارة محاسبة</span>
+                                    </li>
+                                    <li class="span-style">
+                                        <span><a href="#" class="close-item remove">x</a>إدارة محاسبة</span>
+                                    </li>
+                                </ul>
                             </div>
                     </div>
 

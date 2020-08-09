@@ -11,6 +11,12 @@ $(function() {
 
     });
 
+    $('.span-style').hover(function () {
+        $(this).children().children().toggleClass('remove');
+        $(this).toggleClass('change-color');
+
+    });
+
 
     $(document).ready(function () {
         $('#emailpassword').on('submit', function (e) {

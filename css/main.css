@@ -605,11 +605,25 @@ body .left-side a {
 }
 
 .span-style {
-  background-color: red;
-  color: wheat;
+  background-color: #f4ede2;
+  color: #826636;
   padding: 5px 15px;
-  margin: 5px;
   border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.remove {
+  display: none;
+}
+
+.close-item {
+  color: red;
+  margin-right: 5px;
+}
+
+.change-color {
+  color: red;
 }
 
 .bordered-btn {

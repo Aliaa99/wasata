@@ -141,12 +141,22 @@ body{
     border: 1px solid #f1f3f5;
 }
 .span-style{
-    background-color: red;
-    color: wheat;
+    background-color: #f4ede2;
+    color: $secColor;
     padding: 5px 15px;
-    margin: 5px;
     border-radius: 4px;
-
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.remove{
+    display: none;
+}
+.close-item{
+    color: red;
+    margin-right: 5px;
+}
+.change-color{
+    color: red;
 }
 .bordered-btn {
     color: $secColor;
