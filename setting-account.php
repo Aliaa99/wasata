@@ -26,18 +26,24 @@
                     <div class="tab-content">
                         <div id="menu1" class="tab-pane fade">
                             <h3>الملف الشخصى</h3>
-                                <table class="table table-bordered">
-                                    <tbody>
-                                    <tr>
-                                        <td>العمر <span>24</span></td>
-                                        <td>موقع شخصى <span>لا يوجد</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>العمر <span>24</span></td>
-                                        <td>موقع شخصى <span>لا يوجد</span></td>
-                                    </tr>
-                                    </tbody>
-                                </table>
+
+                                <ul class="lists-table">
+                                    <div class="row">
+                                        <div class="col-sm-6 st">
+                                            <li>العمر : <span>24</span></li>
+                                        </div>
+                                        <div class="col-sm-6 st">
+                                            <li>موقع شخصى : <span>لا يوجد</span></li>
+                                        </div>
+                                        <div class="col-sm-6 st">
+                                            <li>العمر : <span>24</span></li>
+                                        </div>
+                                        <div class="col-sm-6 st">
+                                            <li>موقع شخصى : <span>لا يوجد</span></li>
+                                        </div>
+                                    </div>
+                                </ul>
+
                         </div>
                         <div id="menu2" class="tab-pane fade  in active text-center">
                             <h3 class="text-right">السيرة الذاتية</h3>

@@ -1,7 +1,7 @@
 <section class="product-card">
     <div class="row">
         <div class="col-sm-9">
-            <a href="product-details.php">
+            <a href="job-details.php">
                 <h4><strong>Pre owned rolex</strong></h4>
                 
                 <p> <img src="images/saudi.svg" class="mb-4" width="20px" alt=""> <span class="px-10 size-10 color-gray">Rolex watches</span> - <span class="px-10 size-10 color-gray">Saudi Arabia</span> <span class="rate">4.5 <i class="icon-star"></i></span></p>
@@ -9,7 +9,7 @@
             </a>
         </div>
         <div class="col-sm-3 text-center">
-            <a href="product-details.php">
+            <a href="job-details.php">
                 <img class="product-card__img" src="images/watch.png" width="50%" alt="">
             </a>
         </div>

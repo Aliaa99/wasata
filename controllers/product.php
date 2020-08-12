@@ -1,7 +1,7 @@
 <section class="product-card">
     <div class="row">
         <div class="col-sm-9">
-            <a href="product-details.php">
+            <a href="job-details.php">
                 <h4><strong>مطلوب موظف إدخال بيانات </strong></h4>
                 
                 <p>  <span class="px-10 size-10 color-gray size-color">شركة الماس للمحاسبة</span> - <span class="px-10 size-10 color-gray">السعودية الدمام</span> </p>
@@ -9,7 +9,7 @@
             </a>
         </div>
         <div class="col-sm-3 text-center">
-            <a href="product-details.php">
+            <a href="job-details.php">
                 <img class="product-card__img" src="images/watch.png" width="50%" alt="">
             </a>
         </div>

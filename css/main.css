@@ -38,19 +38,19 @@ html,
 body {
   margin: 0;
   height: 100%;
-  font-family: "Proxima Nova Rg";
+  font-family: "Tajawal Rg";
 }
 
 * {
-  font-family: "Proxima Nova Rg";
+  font-family: "Tajawal Rg";
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Proxima Nova Rg";
+  font-family: "Tajawal Rg";
 }
 
 a {
-  font-family: "Proxima Nova Rg";
+  font-family: "Tajawal Rg";
   line-height: 1.7;
   margin: 0px;
   -webkit-transition: all 0.4s;
@@ -75,7 +75,7 @@ input, textarea, select {
   outline: none;
 }
 input::placeholder, textarea::placeholder, select::placeholder {
-  font-family: "Proxima Nova Rg" !important;
+  font-family: "Tajawal Rg" !important;
   color: #DDD !important;
 }
 
@@ -87,7 +87,7 @@ select.form-control {
 button {
   outline: none !important;
   border: none;
-  font-family: "Proxima Nova Rg";
+  font-family: "Tajawal Rg";
   background: transparent;
 }
 button:hover {
@@ -379,14 +379,14 @@ header nav .container ul.navbar-nav li a.main-link {
   color: black;
 }
 header nav .container ul.navbar-nav li a {
-  font-family: "Proxima Nova Rg";
+  font-family: "Tajawal Rg";
 }
 header nav .container ul.navbar-nav li a:hover {
   color: #826636;
 }
 header nav .container ul.navbar-left li a {
   background-color: #826636;
-  font-family: "Proxima Nova Rg";
+  font-family: "Tajawal Rg";
   padding: 1em 1.5em;
   border-radius: 4px;
 }
@@ -400,7 +400,7 @@ header nav .container ul.navbar-left li a:hover {
 }
 
 .font-regular {
-  font-family: "Proxima Nova Rg" !important;
+  font-family: "Tajawal Rg" !important;
 }
 
 .rounded {
@@ -598,6 +598,33 @@ body .left-side a {
   font-size: 12px;
   float: left;
 }
+body .applay-job {
+  padding: 15px;
+  border-top: 1px solid #f1f3f5;
+}
+body .applay-job button {
+  float: left;
+  color: #fff;
+  background-color: #826636;
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+body .applay-job span {
+  color: #826636;
+  font-size: 15px;
+}
+body .lists-table .st {
+  border: 1px solid #f1f3f5;
+  border-top: 0px;
+  padding: 5px;
+}
+body .lists-table li {
+  color: #68758b;
+  font-size: 13px;
+}
+body .lists-table li span {
+  color: #b8c2c7;
+}
 
 .body-content {
   padding: 15px;
@@ -655,6 +682,10 @@ body .left-side a {
   margin-right: 20px;
 }
 
+.p-0 {
+  padding: 0px !important;
+}
+
 .fullwidth {
   width: 100%;
 }
@@ -669,6 +700,44 @@ body .left-side a {
   justify-content: space-between;
   background-color: #f9fafb;
   color: #3473ba;
+}
+
+.block {
+  display: block !important;
+}
+
+.personal-doc {
+  border-left: 1px solid #f1f3f5;
+  border-right: 1px solid #f1f3f5;
+  padding: 15px;
+}
+.personal-doc h4 {
+  font-weight: bold;
+}
+.personal-doc p {
+  color: #c2cacf;
+  font-size: 13px;
+}
+.personal-doc p span {
+  color: #7e899c;
+}
+
+.model-style {
+  padding: 50px;
+}
+.model-style img {
+  width: 100px;
+  height: 100px;
+}
+.model-style a {
+  display: block;
+  margin-top: 20px;
+  color: #000;
+  text-decoration: underline;
+}
+
+.span-color {
+  color: #ddd;
 }
 
 .p-20 {
@@ -723,6 +792,72 @@ input[type=checkbox]:checked:before {
   font-family: FontAwesome;
 }
 
+.global-form {
+  border: 1px solid #eceff1;
+  border-top: 0px;
+  /* Remove IE arrow */
+  /* Custom Select */
+  /* Arrow */
+}
+.global-form label {
+  color: #898e92;
+}
+.global-form label::after {
+  content: "*";
+  color: red;
+  position: absolute;
+  padding: 3px 10px 3px 5px;
+}
+.global-form p {
+  color: #edeff2;
+}
+.global-form button {
+  width: 100%;
+  padding: 5px 40px;
+  margin: 0px;
+}
+.global-form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 1px solid #f1f3f5 !important;
+  background-image: none;
+}
+.global-form select::-ms-expand {
+  display: none;
+}
+.global-form .select {
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 3em;
+  line-height: 2.5;
+  overflow: hidden;
+  border-radius: 0.25em;
+}
+.global-form select {
+  flex: 1;
+  padding: 0 0.5em;
+  color: #ddd;
+  cursor: pointer;
+}
+.global-form .select::after {
+  content: "▼";
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 1em;
+  color: #ddd;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: 0.25s all ease;
+  -o-transition: 0.25s all ease;
+  transition: 0.25s all ease;
+}
+
 .basic-btn {
   color: #3473ba;
   border: 1px solid #3473ba;
@@ -733,6 +868,26 @@ input[type=checkbox]:checked:before {
   color: #3473ba;
   text-decoration: underline;
   font-weight: bold;
+}
+
+.bordered {
+  border: 1px solid #eee;
+}
+
+.no-border {
+  border: 0px !important;
+}
+
+.company-list li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  color: grey;
+  font-size: 13px;
+}
+.company-list li a {
+  color: blue;
+  text-decoration: underline;
+  float: revert;
 }
 
 @keyframes fadein {
@@ -1062,7 +1217,7 @@ textarea {
   font-size: 12px;
 }
 .lower-footer .form-control::placeholder {
-  font-family: "Proxima Nova Rg" !important;
+  font-family: "Tajawal Rg" !important;
   font-size: 12px;
 }
 
