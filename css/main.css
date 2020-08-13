@@ -625,6 +625,44 @@ body .lists-table li {
 body .lists-table li span {
   color: #b8c2c7;
 }
+body .owners article {
+  padding: 16px;
+  border: 1px solid #dddddd2e;
+  border-bottom: none;
+}
+body .owners article p {
+  color: #b8c1c8;
+}
+body .owners thead {
+  background: #f1f3f5;
+}
+body .owners thead th {
+  border: 0px;
+  padding: 10px !important;
+}
+body .owners tbody td {
+  border-top: 0px;
+  padding: 10px;
+  font-size: 13px;
+  color: #cbd2d6;
+  line-height: 2;
+  border-bottom: 1px solid #f1f3f5;
+  border-left: 1px solid #f1f3f5;
+}
+body .owners tbody td:last-child {
+  border-left: none;
+}
+body .owners tbody td img {
+  width: 25px;
+  height: 25px;
+}
+body .owners tbody td button {
+  background-color: #826636;
+  font-size: 12px;
+  padding: 2px 15px;
+  color: #fff;
+  border-radius: 4px;
+}
 
 .body-content {
   padding: 15px;
@@ -935,6 +973,38 @@ input[type=checkbox]:checked:before {
   }
 }
 /*** End _body-part. ***/
+/*** Start _cards***/
+.card {
+  box-shadow: 0px 0px 20px 3px #f7fafa;
+  padding: 20px 25px 35px 25px;
+  margin-top: 60px;
+}
+.card__success img {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  transform: translateY(-70px);
+  margin: auto;
+  /* top: 10px; */
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+}
+.card__success .rate {
+  margin: 40px 10px 20px 10px;
+}
+.card__success .rate i {
+  font-size: 25px;
+}
+.card__success h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.card__success p {
+  color: #ddd;
+}
+
+/*** End _cards ***/
 /*** Start _body-part.***/
 .main-filter {
   border: 1px solid #f1f3f5;

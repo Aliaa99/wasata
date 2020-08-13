@@ -144,9 +144,9 @@
                             <ul class="nav navbar-nav">
                                 <li class="active"><a href="jobs.php" class="main-link">الرئيسية</a></li>
                                 <li><a href="favorites.php" class="main-link">من نحن</a></li>
-                                <li><a href="notifications.php" class="main-link">أصحاب العمل</a></li>
-                                <li><a href="messages.php" class="main-link">قصص نجاح</a></li>
-                                <li><a href="messages.php" class="main-link">أنظمة وقوانين </a></li>
+                                <li><a href="owners.php" class="main-link">أصحاب العمل</a></li>
+                                <li><a href="success-story.php" class="main-link">قصص نجاح</a></li>
+                                <li><a href="rules.php" class="main-link">أنظمة وقوانين </a></li>
                                 <li><a href="messages.php" class="main-link">الأسئلة المتكرره</a></li>
                             </ul>
                         </div>
