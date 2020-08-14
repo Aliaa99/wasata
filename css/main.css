@@ -663,6 +663,35 @@ body .owners tbody td button {
   color: #fff;
   border-radius: 4px;
 }
+body .idea .idea-photo img {
+  width: 125%;
+  height: 100%;
+  transform: translateX(260px);
+}
+body .idea article {
+  padding: 10px 0px;
+  margin-bottom: 25px;
+}
+body .idea article h2 {
+  margin-bottom: 35px;
+}
+body .idea article p {
+  color: gray;
+}
+body .idea article i {
+  color: #9f8964;
+  font-size: 25px;
+}
+body .idea article .line-style {
+  position: relative;
+}
+body .idea article .line-style::after {
+  position: absolute;
+  content: "___";
+  color: red;
+  bottom: -10px;
+  right: 0;
+}
 
 .body-content {
   padding: 15px;
@@ -972,6 +1001,47 @@ input[type=checkbox]:checked:before {
     opacity: 1;
   }
 }
+.video-img {
+  overflow: hidden;
+}
+.video-img img {
+  width: 100%;
+  transform: scale(1.5);
+}
+
+.experiece ul li {
+  padding: 0px 20px 20px 20px;
+  position: relative;
+  border-right: 1px solid #000;
+  color: darkgray;
+}
+.experiece ul li:last-child {
+  border: 0px;
+}
+.experiece ul li::after {
+  position: absolute;
+  content: "";
+  top: -5px;
+  right: -10px;
+  color: #9f8964;
+  font-size: 20px;
+  font-family: FontAwesome;
+}
+.experiece ul li::before {
+  position: absolute;
+  content: "";
+  top: -5px;
+  right: -15px;
+  color: #fff;
+  font-size: 20px;
+  font-family: FontAwesome;
+  border: 1px solid #9f8964;
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  bottom: 0;
+}
+
 /*** End _body-part. ***/
 /*** Start _cards***/
 .card {

@@ -208,7 +208,43 @@ body{
             }
         }
 
-    }    
+    }   
+    
+    // who we are
+    // idea 
+    .idea{
+        .idea-photo {
+            img {
+                width: 125%;
+                height: 100%;
+                transform: translateX(260px);
+            }
+        }
+        article{
+            padding: 10px 0px;
+            margin-bottom: 25px;
+            h2{
+                margin-bottom: 35px;
+            }
+            p{
+                color:gray;
+            }
+            i{
+                color: #9f8964;
+                font-size: 25px;
+            }
+            .line-style{
+                position: relative;
+                &::after{
+                    position: absolute;
+                    content: '___';
+                    color: red;
+                    bottom: -10px;
+                    right: 0;
+                }
+            }
+        }
+    }
 }
 .body-content{
     padding: 15px;
@@ -513,3 +549,48 @@ input[type="checkbox"]:checked:before {
 }
 
 
+.video-img{
+    overflow: hidden;
+    img{
+        width: 100%;
+        transform: scale(1.5);
+
+    }
+}
+.experiece{
+    ul{
+            li{
+                padding: 0px 20px 20px 20px;
+                position: relative;
+                border-right: 1px solid #000;
+                color: darkgray;
+                &:last-child{
+                    border: 0px;
+                }
+                &::after{
+                    position: absolute;
+                    content: '\f111';
+                    top: -5px;
+                    right: -10px;
+                    color: #9f8964;
+                    font-size: 20px;
+                    font-family: FontAwesome;
+                }
+                &::before {
+                    position: absolute;
+                    content: '\f111';
+                    top: -5px;
+                    right: -15px;
+                    color: #fff;
+                    font-size: 20px;
+                    font-family: FontAwesome;
+                    border: 1px solid #9f8964;
+                    border-radius: 50%;
+                    width: 27px;
+                    height: 27px;
+                    bottom: 0;
+                }
+
+            }
+    }
+}
