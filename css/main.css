@@ -1049,6 +1049,35 @@ input[type=checkbox]:checked:before {
   overflow: hidden;
 }
 
+.our-service article {
+  margin: 50px 20px;
+}
+.our-service article span {
+  color: #9f8964;
+  font-size: 25px;
+  font-weight: bold;
+}
+.our-service article h1 {
+  font-weight: bold;
+}
+.our-service article p {
+  color: #ddd;
+}
+.our-service .card-service img {
+  width: 50px;
+  height: 50px;
+}
+.our-service .card-service h4 {
+  font-weight: bold;
+}
+.our-service .card-service p {
+  color: gray;
+  font-size: 13px;
+}
+.our-service .card-service a {
+  color: blue;
+}
+
 /*** End _body-part. ***/
 /*** Start _cards***/
 .card {

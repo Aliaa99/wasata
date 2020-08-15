@@ -74,14 +74,39 @@
                <p> هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا النص سيتغيرهذا النص سيتغير</p>                   
             </article>    
             <div class="row">
-                <div class="col-lg-3">
-                    <div class="card ">
+                <div class="col-lg-3 col-md-4 col-sm-2">
+                    <div class="card-service ">
                         <img src="images/watch.png" alt="">
                         <h4>البحث عن وظيفة</h4>   
-                        <p class="more-paragraph paragraph-lines">هذا النص سيتغير هذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغير</p>  
+                        <p class="more-paragraph paragraph-lines">هذا النص سيتغير هذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغيرسيتغير</p>  
+                        <a  class="more">المزيد</a>               
+                    </div>                        
+                </div>   
+                <div class="col-lg-3 col-md-4 col-sm-2">
+                    <div class="card-service ">
+                        <img src="images/watch.png" alt="">
+                        <h4>البحث عن وظيفة</h4>   
+                        <p class="more-paragraph paragraph-lines">هذا النص سيتغير هذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغيرسيتغير</p>  
                         <a  class="more">المزيد</a>               
                     </div>                        
                 </div>                            
+                <div class="col-lg-3 col-md-4 col-sm-2">
+                    <div class="card-service ">
+                        <img src="images/watch.png" alt="">
+                        <h4>البحث عن وظيفة</h4>   
+                        <p class="more-paragraph paragraph-lines">هذا النص سيتغير هذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغيرسيتغير</p>  
+                        <a  class="more">المزيد</a>               
+                    </div>                        
+                </div>                            
+                <div class="col-lg-3 col-md-4 col-sm-2">
+                    <div class="card-service ">
+                        <img src="images/watch.png" alt="">
+                        <h4>البحث عن وظيفة</h4>   
+                        <p class="more-paragraph paragraph-lines">هذا النص سيتغير هذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغيرسيتغير</p>  
+                        <a  class="more">المزيد</a>               
+                    </div>                        
+                </div>                            
+
             </div>                            
         </div>
     </div>
