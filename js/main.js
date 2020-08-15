@@ -16,7 +16,11 @@ $(function() {
         $(this).toggleClass('change-color');
 
     });
+    // more link
+    $('.more').click(function () {
+        $('.more-paragraph').removeClass('paragraph-lines');
 
+    });
 
     $(document).ready(function () {
         $('#emailpassword').on('submit', function (e) {

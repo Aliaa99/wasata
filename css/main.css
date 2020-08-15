@@ -1042,6 +1042,13 @@ input[type=checkbox]:checked:before {
   bottom: 0;
 }
 
+.paragraph-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 /*** End _body-part. ***/
 /*** Start _cards***/
 .card {
