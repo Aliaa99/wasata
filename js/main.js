@@ -18,7 +18,7 @@ $(function() {
     });
     // more link
     $('.more').click(function () {
-        $('.more-paragraph').removeClass('paragraph-lines');
+        $(this).parent().find("p").removeClass('paragraph-lines');
         $(this).remove();
 
     });
