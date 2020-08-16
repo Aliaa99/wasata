@@ -1,17 +1,59 @@
 .upper-footer {
-    background-color: #f1f5f4;
-    // margin-top: 6rem;
-}
-.lower-footer {
-    padding: 4rem 0;
-    background-color: #f7fafa;
-    .form-control {
-        border: none !important;
-        margin-top: $size-10;
-        font-size: $size-12;
-        &::placeholder {
-            font-family: $baseFont !important;
-            font-size: $size-12;
+    background-color: #434a51;
+    padding: 20px 0px;
+    padding-bottom: 60px;
+    h5{
+        color: white;
+        margin-bottom: 25px;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: '';
+            width: 150px;
+            height: 2px;
+            background-color: white;
+            bottom: -10px;
+            right: 0px;
+
         }
     }
+    p{
+        color: white;
+        font-size: 12px;
+    }
+    li{
+        margin: 10px 0px;
+        a{
+            color: white;
+            font-size: 14px;
+        }
+    }
+    .social-media{
+        li{
+            display: inline-block;
+            padding: 1px;
+            background-color: white;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            margin: 0px 3px;
+            text-align: center;
+            a{
+                color: #434a51;
+                font-size: 22px;
+            }
+            &:last-child {
+                background-color: transparent;
+                a{
+                    color: #fff;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+.lower-footer {
+    padding: 1rem 0;
+    background-color: black;
+    color: whitesmoke;
 }

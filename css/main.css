@@ -1380,21 +1380,61 @@ textarea {
 /*** End _body-part. ***/
 /*** Start Footer ***/
 .upper-footer {
-  background-color: #f1f5f4;
+  background-color: #434a51;
+  padding: 20px 0px;
+  padding-bottom: 60px;
+}
+.upper-footer h5 {
+  color: white;
+  margin-bottom: 25px;
+  position: relative;
+}
+.upper-footer h5::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 2px;
+  background-color: white;
+  bottom: -10px;
+  right: 0px;
+}
+.upper-footer p {
+  color: white;
+  font-size: 12px;
+}
+.upper-footer li {
+  margin: 10px 0px;
+}
+.upper-footer li a {
+  color: white;
+  font-size: 14px;
+}
+.upper-footer .social-media li {
+  display: inline-block;
+  padding: 1px;
+  background-color: white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin: 0px 3px;
+  text-align: center;
+}
+.upper-footer .social-media li a {
+  color: #434a51;
+  font-size: 22px;
+}
+.upper-footer .social-media li:last-child {
+  background-color: transparent;
+}
+.upper-footer .social-media li:last-child a {
+  color: #fff;
+  font-size: 25px;
 }
 
 .lower-footer {
-  padding: 4rem 0;
-  background-color: #f7fafa;
-}
-.lower-footer .form-control {
-  border: none !important;
-  margin-top: 10px;
-  font-size: 12px;
-}
-.lower-footer .form-control::placeholder {
-  font-family: "Tajawal Rg" !important;
-  font-size: 12px;
+  padding: 1rem 0;
+  background-color: black;
+  color: whitesmoke;
 }
 
 /*** End Footer ***/

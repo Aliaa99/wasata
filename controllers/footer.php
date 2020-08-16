@@ -1,64 +1,47 @@
     
         <footer>
-          <div class="upper-footer">
+          <div class="upper-footer ">
             <div class="container">
               <div class="row">
-                <div class="col-sm-4 text-center">
-                  <h5><strong>Download our app</strong></h5>
+                <div class="col-sm-4 ">
+                  <h5><strong>معلومات عن وساطة</strong></h5>
+                  <p> هذا النص سيتغير هذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغيرهذا النص سيتغير </p>
                 </div>
-                <div class="col-sm-2 col-xs-6 text-center">
-                  <a href="#">
-                    <img src="images/googlepaly.svg" width="95px" class="my-5" alt="">
-                  </a>
+                <div class="col-sm-2 col-xs-6 ">
+                  <h5><strong>روابط سريعة</strong></h5>
+                  <ul>
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#">الخدمات</a></li>
+                    <li><a href="#">الاسئلة المتكررة</a></li>
+                  </ul>
                 </div>
-                <div class="col-sm-2 col-xs-6 text-center">
-                  <a href="#">
-                    <img src="images/appstore.svg" width="90px" class="my-5" alt="">
-                  </a>
+                <div class="col-sm-2 col-xs-6 ">
+                  <h5><strong>سياسة الموقع</strong></h5>
+                  <ul>
+                    <li><a href="#">الشروط واأحكام</a></li>
+                    <li><a href="#">أتصل بنا</a></li>
+                  </ul>
                 </div>
-                <div class="col-sm-4 text-center">
-                  <h5><strong>Catch offer</strong></h5>
+                <div class="col-sm-4 ">
+                  <h5><strong>تابعنا على</strong></h5>
+                  <ul class="social-media">
+                    <li><a href="#"><span><i class="fa fa-facebook-f"></i></span></a></li>
+                    <li><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>
+                    <li><a href="#"><span><i class="fa fa-instagram"></i></span></a></li>
+                    <li><a href="#"><span><i class="fa fa-whatsapp"></i></span></a></li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
-          <div class="lower-footer">
+   
+          <div class="lower-footer text-center">
             <div class="container">
-              <div class="row">
-                <div class="col-sm-4 text-sm-center">
-                  <a href="#">
-                    <img src="images/logoicon.png" width="100px" class="my-5" alt="">
-                  </a>
-                </div>
-                <div class="col-sm-2 col-xs-6">
-                  <section>
-                    <h5><strong>About</strong></h5>
-                    <ul>
-                      <li><a href="about-us.php" class="size-12 color-black">About us</a></li>
-                      <li><a href="contact-us.php" class="size-12 color-black">Contact us</a></li>
-                    </ul>
-                  </section>
-                </div>
-                <div class="col-sm-2 col-xs-6">
-                  <section>
-                    <h5><strong>Categories</strong></h5>
-                    <ul>
-                      <li><a href="about-us.php" class="size-12 color-black">Men</a></li>
-                      <li><a href="contact-us.php" class="size-12 color-black">Women</a></li>
-                      <li><a href="contact-us.php" class="size-12 color-black">Other</a></li>
-                    </ul>
-                  </section>
-                </div>
-                <div class="col-sm-4">
-                  <section>
-                    <h5><strong>Newsletter</strong></h5>
-                    <p class="color-black size-10">Subscribe to our newsletter</p>
-                    <input type="text" class="form-control" id="username" placeholder="Enter Your Email"> 
-                  </section>
-                </div>
-              </div>
+              <p>جميع الحقوق محفوظة لدى وساطة</p>
             </div>
           </div>
+
+
         </footer>
 
 
