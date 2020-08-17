@@ -1,6 +1,31 @@
 $(function() {
     'use strict';
 
+    $('.index-caro').owlCarousel({
+        rtl: true,
+        nav: false,
+        margin: 25,
+        responsive: {
+            0: {
+                items: 1
+            },
+        }
+    });
+
+    $('.opinions .owl-carousel').owlCarousel({
+        rtl: true,
+        nav: true,
+        dots:false,
+        margin: 25,
+        responsive: {
+            0: {
+                items: 3
+            },
+        }
+    });
+
+
+
     $('.logintab').click(function () {
         $('.pillsstyle li').toggleClass("active");
     
@@ -89,22 +114,6 @@ $(function() {
     //     $(this).addClass('active').siblings().removeClass('active');
     // });
 
-    // $('.our-news .owl-carousel').owlCarousel({
-    //     rtl:true,
-    //     nav:true,
-    //     margin:25,
-    //     responsive:{
-    //         0:{
-    //             items:1
-    //         },
-    //         600:{
-    //             items:2
-    //         },
-    //         1000:{
-    //             items:3
-    //         }
-    //     }
-    // });
 
     // $('.our-news .owl-nav .owl-prev, .our-news .owl-nav .owl-next').empty();
 

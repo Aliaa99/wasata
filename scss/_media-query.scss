@@ -7,11 +7,20 @@
     .form-section {
         width: 50%;
     } ;
+
+    
 }
 @media (min-width:991px) {
 
 }
 @media (min-width:1024px) {
+        .contact-form {
+            transform: translateY(-150px);
+            position: relative;
+            z-index: 9;
+
+        }
+
 
 }
 @media (min-width:1100px) {

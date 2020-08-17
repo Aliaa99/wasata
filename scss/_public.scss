@@ -69,11 +69,60 @@ textarea {
     margin-top: 0;
 }
 .contact-us {
-    transform: translateY(-130px);
-    background-color: white;
-    border-radius: 4px;
-    padding: 40px;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #eee !important;
+    // transform: translateY(-130px);
+    // background-color: white;
+    // border-radius: 4px;
+    // padding: 40px;
+    // box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #eee !important;
+    background-color: #434a51;
+    color: #f1f5f4;
+    
+    li{
+        padding: 20px 0px;
+        position: relative;
+    }
+    h4{
+        font-weight: bold;
+        position: relative;
+        padding: 16px 0px;
+        &::after{
+            position: absolute;
+            content: '';
+            width: 130px;
+            height: 2px;
+            background-color: white;
+            bottom: 0;
+            right: 0;
+
+       }
+    }
+    .icon-style{
+            top: 25px;
+            right: 0px;
+            position: absolute;
+        i{
+            font-size: 30px;
+            color: #cbb798;
+            background-color: #626261;
+            width: 50px;
+            border-radius: 5px;
+            height: 50px;
+            text-align: center;
+            padding-top: 9px;
+        }
+    }
+    .contacts{
+        display: inline-block;
+        margin-right: 80px;
+        span{
+            color: #cbb798;
+            font-size: 20px;
+        }
+        p {
+            color: #9fa9b0;
+            font-size: 15px;
+        }
+    }
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     border: none !important;

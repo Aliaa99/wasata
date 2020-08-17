@@ -2,7 +2,8 @@
     include 'controllers/header.php';
 ?>
 
-
+<div class="owl-carousel owl-theme index-caro">
+    <div class="item">
         <div class="tele-academy-paging">
             <div class="container text-center">
                 <h2>شبكة وساطة لتوظيف ذوى الإعاقات الخاصة</h2>
@@ -11,144 +12,121 @@
                 <a href="contact-us.php" >اتصل بنا  </a>
             </div>
         </div>
+    </div>
+    <div class="item">
+        <div class="tele-academy-paging">
+            <div class="container text-center">
+                <h2>شبكة وساطة لتوظيف ذوى الإعاقات الخاصة</h2>
+                <p class="color-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque praesentium corporis rem atque delectus suscipit! Ducimus, suscipit doloremque quisquam omnis modi rem placeat, reiciendis quidem veniam praesentium laboriosam. Molestias.</p>
+                <a href="login.php"  class="newmemb">إنضم إلينا </a>
+                <a href="contact-us.php" >اتصل بنا  </a>
+            </div>
+        </div>
+    </div>
 
-            <!-- sigup modal -->
-        <div class="modal" id="signupModal"
-            role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="true"> 
-    
-            <div class="modal-dialog signmodel"> 
-                <div class="modal-content"> 
+</div>
 
-                    <ul class="nav nav-pills pillsstyle">
-                        <li class="active"><a data-toggle="pill" href="#home">SignUp</a></li>
-                        <li><a data-toggle="pill" href="#menu1">LogIn</a></li>
-                    </ul>
+ <!-- opinions -->
+    <div class="opinions">
+        <div class="container">
+            <div class="owl-carousel owl-theme ">
+                <div class="item">
+                    <?php
+                        include 'controllers/success-card.php';
+                    ?>
+                </div>
+                <div class="item">
+                    <?php
+                        include 'controllers/success-card.php';
+                    ?>
+                </div>
+                <div class="item">
+                    <?php
+                        include 'controllers/success-card.php';
+                    ?>
+                </div>
+                <div class="item">
+                    <?php
+                        include 'controllers/success-card.php';
+                    ?>
+                </div>
+                <div class="item">
+                    <?php
+                        include 'controllers/success-card.php';
+                    ?>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- contactus -->
 
-                    <!-- Modal body -->
-                    <div class="tab-content">
-                        <!-- signup tap -->
-                        <div id="home" class="tab-pane fade in active">
-                            
-                                        <!-- Modal root -->
-                            <div class="m-header"> 
-                                <h4 class="myModalLabel"> Sign Up </h4> 
-                            </div> 
-                            <form class="signupform" action="/new folder/categories.php">
-                                <!-- username input -->
-                                <input type="text" class="form-control" id="username" placeholder="Username"> 
-                                <input type="number" class="form-control" id="phonenumber" placeholder="phonenumber"> 
-                                <input type="email" class="form-control" id="email" placeholder="Email"> 
-                                <input type="text" class="form-control" id="country" placeholder="country"> 
-                                <input type="password" class="form-control" id="password" placeholder="password"> 
-                                <input type="password" class="form-control" id="confirmpassword" placeholder="confirm password"> 
-                                <button type="submit">Sign Up</button> 
-                            </form>
-                                <!-- Modal footer -->
-                            <div class="footer"> 
-                                <form>
-                                    <div class="checkbox">
-                                        <label><input class="check-adjust" type="checkbox" value="">I agree to all <a href="#">terems&conditions</a></label>
-                                    </div>
-                                    <!-- <input type="checkbox" value="">
-                                    <label class="checkbox-inline">
-                                        I agree to all
-                                    </label> -->
-                                    
-                                </form>
-                                <p> 
-                                    Already have an account ?
-                                    <a href="#menu1" data-toggle="pill" class="logintab"> Login </a> 
-                                </p> 
-                            </div> 
+<div class="contact-us p-20">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-5" >
+                <h4>تواصل معنا</h4>
+                <ul>
+                    <li>
+                        <span class="icon-style"><i class="fa fa-map-marker"></i></span>
+                        <div class="contacts">
+                            <span>العنوان</span>
+                            <p>السعودية ،الدمام</p>
                         </div>
-
-                        <!-- login tap -->
-
-                        <div id="menu1" class="tab-pane fade">
-                                <!-- Modal root -->
-                            <div class="m-header"> 
-                                <h4 class="myModalLabel"> Log in </h4> 
-                            </div> 
-                            <form class="signupform" action="/new folder/categories.php">
-                                <!-- username input -->
-                                <input type="text" class="form-control" id="username" placeholder="Email/Username"> 
-                                <input type="password" class="form-control" id="password" placeholder="password"> 
-
-                                <button type="submit">Log in</button> 
-                            </form>
-                                <!-- Modal footer -->
-                            <div class="footer"> 
-                                <a href="#forgetpass" data-toggle="modal">forget password</a>
-                                <p> 
-                                    Don't have an account ?
-                                    <a href="#home" data-toggle="pill" class="logintab"> sign up </a> 
-                                </p> 
-                            </div> 
+                    </li>
+                    <li>
+                        <span class="icon-style"><i class="fa fa-mobile"></i></span>
+                        <div class="contacts">
+                            <span>رقم الجوال</span>
+                            <p>2554896454</p>
                         </div>
-                    </div>
-                </div> 
-            </div> 
-        </div>
-
-            <!-- forget pass -->
-        <div class="modal" id="forgetpass" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
-            <div class="modal-dialog signmodel ml-ne"> 
-                <div class="modal-content"> 
-
-                    <form class="signupform " id="emailpassword">
-                            <!-- Modal root -->
-                        <div class="m-header"> 
-                            <h4 class="myModalLabel"> forget password </h4> 
-                        </div> 
-                        <!-- username input -->
-                        <input type="email" class="form-control" id="email" placeholder="Email"> 
-                        <button type="submit" class="toforget">send</button> 
+                    </li>
+                    <li>
+                        <span class="icon-style"><i class="fa fa-envelope"></i></span>
+                        <div class="contacts">
+                            <span>البريد الإلكترونى</span>
+                            <p>ahmed@yahoo.com</p>
+                            <p>AaAa@gmail.com</p>
+                            <p>ali@yahoo.com</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-5 col-sm-7">
+                <div class="contact-form">
+                    <form action="">
+                        <h3 class="text-center">تواصل معنا</h3>
+                        <div class="form-group">
+                            <label for="">اسم المستخدم</label>
+                            <input type="text" class="form-control" placeholder="اسم المستخدم">
+                        </div>
+                        <div class="form-group">
+                            <label for="">البريد الإلكترونى </label>
+                            <input type="email" class="form-control" placeholder="البريد الإلكترونى">
+                        </div>
+                        <div class="form-group">
+                            <label for="">رقم الجوال</label>
+                            <input type="number" class="form-control" placeholder="رقم الجوال">
+                        </div>
+                        <div class="form-group">
+                            <label for="">عنوان التواصل</label>
+                            <input type="text" class="form-control" placeholder="عنوان التواصل">
+                        </div>
+                        <div class="form-group">
+                            <label for="">نص التواصل</label>
+                            <textarea name="" id="" cols="10" rows="5" placeholder="نص التواصل"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">إرسال</button>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
 
-            <!-- reset password  -->
-        <div class="modal" id="resetpass" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
-            <div class="modal-dialog signmodel ml-ne"> 
-                <div class="modal-content">         
-                    <form class="signupform form-inline " id="codepass">
 
-                            <!-- Modal root -->
-                        <div class="m-header"> 
-                            <h4 class="myModalLabel"> forget password </h4> 
-                        </div> 
-                        <!-- username input -->
-                        <input type="number" class="form-control special" id="number" placeholder="__"> 
-                        <input type="number" class="form-control special" id="number2" placeholder="__"> 
-                        <input type="number" class="form-control special" id="number3" placeholder="__"> 
-                        <input type="number" class="form-control special" id="number4" placeholder="__"> 
-                        <button type="submit" class="toforget">confirm</button> 
-                    </form>
-                </div>
-            </div>
-        </div>
-
-
-            <!-- confirm reset password  -->
-        <div class="modal" id="newresetpass" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
-            <div class="modal-dialog signmodel ml-ne"> 
-                <div class="modal-content">         
-                    <form class="signupform " id="newpass" >
-                            <!-- Modal root -->
-                        <div class="m-header"> 
-                            <h4 class="myModalLabel"> New password </h4> 
-                        </div> 
-                        <!-- username input -->
-                        <input type="text" class="form-control" id="text" placeholder="New password"> 
-                        <input type="text" class="form-control" id="text" placeholder="confirm New password"> 
-                        <button type="submit" class="toforget" >confirm</button> 
-                    </form>
-                </div>
-            </div>
-        </div>
 
 
 
@@ -159,6 +137,7 @@
 
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="js/slick.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

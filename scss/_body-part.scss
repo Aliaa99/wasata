@@ -637,3 +637,37 @@ input[type="checkbox"]:checked:before {
         }
     }
 }
+// contact-form
+.contact-form{
+    background-color: #f1f3f5;
+    padding: 20px 30px;
+    border: 1px solid #434a51;
+    h3{
+        color: #000;
+        font-weight: bold;
+    }
+    label{
+        color: #000;
+    }
+    button{
+        color: white;
+        background-color: #434a51;
+        padding: 10px 20px;
+        width: 100%;
+    }
+}
+
+// opinions
+.opinions{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    img{
+        width: 90px !important;
+    }
+    .owl-nav{
+        position: absolute;
+        top: -5px;
+        left: 0;
+
+    }
+}

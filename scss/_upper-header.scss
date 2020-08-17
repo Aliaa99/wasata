@@ -99,6 +99,24 @@ header {
     color: white !important;
 }
 // home style
+.index-caro{
+    .owl-dots{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 10px;
+        .owl-dot{
+            span{
+                background-color: #fff;
+            }
+            &.active ,&:hover {
+                span{
+                    background-color: #826636 !important;
+                }
+            }
+        }
+    }
+}
 .tele-academy-paging {
     background: url(../images/bg.png);
     background-size: cover;
