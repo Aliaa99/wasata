@@ -34,7 +34,7 @@
                             </div>
                             <div class="col-sm-4">
                                 <div class="select">
-                                <select class="form-control" >
+                                <select class="form-control  " >
                                     <option value="" selected disabled>نوع الاعاقة</option>
                                     <option>1</option>
                                     <option>2</option>

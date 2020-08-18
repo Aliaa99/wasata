@@ -16,6 +16,7 @@ $(function() {
         rtl: true,
         nav: true,
         dots:false,
+        navText:["",""],
         margin: 25,
         responsive: {
             0: {
@@ -24,8 +25,18 @@ $(function() {
         }
     });
 
-
-
+    $('.partenars .owl-carousel').owlCarousel({
+        rtl: true,
+        nav: false,
+        dots: false,
+        margin: 25,
+        responsive: {
+            0: {
+                items: 4
+            },
+        }
+    });
+ 
     $('.logintab').click(function () {
         $('.pillsstyle li').toggleClass("active");
     

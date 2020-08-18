@@ -26,9 +26,29 @@
 
 </div>
 
+
+ <!-- partenars -->
+    <div class="partenars">
+        <div class="container">
+            <h2>شركاؤنا</h2>
+            <div class="owl-carousel owl-theme ">
+                <div class="item">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="images/bg.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="images/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
  <!-- opinions -->
     <div class="opinions">
         <div class="container">
+            <h2>آراء عملاؤنا</h2>
             <div class="owl-carousel owl-theme ">
                 <div class="item">
                     <?php
@@ -58,8 +78,8 @@
             </div>
         </div>
     </div>
-<!-- contactus -->
 
+<!-- contactus -->
 <div class="contact-us p-20">
     <div class="container">
         <div class="row">
@@ -124,7 +144,6 @@
         </div>
     </div>
 </div>
-
 
 
 

@@ -668,6 +668,51 @@ input[type="checkbox"]:checked:before {
         position: absolute;
         top: -5px;
         left: 0;
+        .owl-prev{
+            position: relative;
+            width: 20px;
+            height: 12px;
+            background-color: transparent;
+            &::after{
+                position: absolute;
+                content: '\f061';
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                color: black;
+                opacity: 1;
+                font-family: FontAwesome;
+            }
+            &:hover{
+                background-color: transparent;
+            }
+        }
+        .owl-next {
+            position: relative;
+            width: 20px;
+            height: 12px;
+            background-color: transparent;
+            &::after {
+                position: absolute;
+                content: '\f060';
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                color: black;
+                opacity: 1;
+                font-family: FontAwesome;
+            }
+            &:hover {
+                background-color: transparent;
+            }
+        }
 
+    }
+}
+.partenars {
+    img{
+        height: 120px;
     }
 }

@@ -1122,6 +1122,50 @@ input[type=checkbox]:checked:before {
   top: -5px;
   left: 0;
 }
+.opinions .owl-nav .owl-prev {
+  position: relative;
+  width: 20px;
+  height: 12px;
+  background-color: transparent;
+}
+.opinions .owl-nav .owl-prev::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  color: black;
+  opacity: 1;
+  font-family: FontAwesome;
+}
+.opinions .owl-nav .owl-prev:hover {
+  background-color: transparent;
+}
+.opinions .owl-nav .owl-next {
+  position: relative;
+  width: 20px;
+  height: 12px;
+  background-color: transparent;
+}
+.opinions .owl-nav .owl-next::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  color: black;
+  opacity: 1;
+  font-family: FontAwesome;
+}
+.opinions .owl-nav .owl-next:hover {
+  background-color: transparent;
+}
+
+.partenars img {
+  height: 120px;
+}
 
 /*** End _body-part. ***/
 /*** Start _cards***/
