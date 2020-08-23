@@ -76,18 +76,23 @@
                             <span>11 شعبان</span>
                         </li>
                         <li>
-                            الميلاد : 
-                            <span>11 شعبان</span>
+                            الجنسية : 
+                            <span>السعودية</span>
                         </li>
                         <li>
-                            الميلاد : 
-                            <span>11 شعبان</span>
+                            الحالة الإجتماعية : 
+                            <span>متزوج</span>
                         </li>
                         <li>
-                            الميلاد : 
-                            <span>11 شعبان</span>
+                            الضمان الإجتماعى : 
+                            <span>مستفيد</span>
                         </li>
                     </ul>
+                    <section>
+                        <img src="images/watch.png" alt="">
+                    </section>
+                    <p>يمكن تصفح هذا الموقع </p>
+                    <a href="#">wasata.com</a>
                 </div>
             </div>
         </div>
